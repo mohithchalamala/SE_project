@@ -1,0 +1,15 @@
+.line-cont {
+    border-style: solid;
+    border-width: 1px; 
+    border-color: black; 
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    opacity: 0.2;
+  }
+  .info-cont{
+    font-size: 5.5vw;
+    line-height: 100%;
+  }
+  
