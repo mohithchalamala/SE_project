@@ -25,6 +25,7 @@ body{
 }
 .group-heading p{
     margin: 15px;
+    cursor: pointer;
 }
 .login-btn{
     border-style:solid;
@@ -36,5 +37,6 @@ body{
     height: 10%;
     text-align: center;
     border-radius: 50px;
+    cursor: pointer;
     
 }

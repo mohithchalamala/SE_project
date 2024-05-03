@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-import img1 from '../assets/photo_2983067.png'
 function Navbar() {
   return (
     <div>
