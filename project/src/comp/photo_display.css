@@ -1,3 +1,6 @@
+*{
+  transition: transform 1s ease-in-out;
+}
 .line-cont {
     border-style: solid;
     border-width: 1px; 
@@ -9,7 +12,89 @@
     opacity: 0.2;
   }
   .info-cont{
-    font-size: 5.5vw;
+    font-size: 4vw;
     line-height: 100%;
+    opacity: 1;
+    margin-left: 5%;
   }
-  
+  .photo-graphs-cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-style: solid;
+    width: 30vw;
+    height: 90vh;
+    background-color: #e8e6dc;
+    overflow: hidden;
+
+  }
+  .Se_pic_2{
+    padding: 3%;
+    object-fit: cover;
+    height: 80vh;
+    width: 100vw;
+  }
+  .img-cont{
+    flex: 1;
+    object-fit: cover;
+  }
+  .img-cont-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40%;
+    text-align: center;
+    flex: 2;
+  }
+  .img-cont:hover {
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+}
+.p-g-c-2{
+  width: 25vw;
+  margin-left: 60%;
+  margin-top: -20%;
+}
+.p-g-c-3{
+  width: 25vw;
+  margin-left:1%;
+  margin-top: -15%;
+}
+.p-g-c-4{
+  width: 25vw;
+  height: 90vh;
+  margin-left: 70%;
+  margin-top: -25%;
+}
+.p-g-c-5{
+  height: 70vh;
+  width: 25vw;
+  margin-left:35%;
+  margin-top: -20%;
+}
+.p-g-c-6{
+  width: 25vw;
+  margin-left:1%;
+  margin-top: -15%;
+}
+.p-g-c-7{
+  width: 30vw;
+  height: 100vh;
+  margin-left: 50%;
+  margin-top: -20%;
+}
+.p-g-c-8{
+  height: 80vh;
+  width: 23vw;
+  margin-left:1%;
+  margin-top: -4%;
+}
+.p-g-c-9{
+  width: 23vw;
+  height: 80vh;
+  margin-left: 70%;
+  margin-top: -25%;
+}

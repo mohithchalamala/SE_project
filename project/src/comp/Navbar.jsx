@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <div className='navbar-cont'>
       {/* <img src={img1}></img> */}
-        <h2 className='heading'>PHOTOSTAT</h2>
+        <h2 className='heading'>PIXELS</h2>
         <div className='group-heading'>
           <p>Home</p>
           <p>Contests</p>
